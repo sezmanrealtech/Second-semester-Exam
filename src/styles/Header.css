@@ -1,0 +1,21 @@
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#66C4F9, #007EC6);
+}
+h1{
+  font-size: 35px;
+  color: white;
+}
+@media (max-width: 768px) {
+  h1{
+    font-size: 25px;
+  }
+}
+@media (max-width: 425px) {
+  h1{
+    font-size: 20px;
+  }
+}

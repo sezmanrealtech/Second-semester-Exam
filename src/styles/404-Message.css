@@ -1,0 +1,59 @@
+#root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.Holder404 {
+  margin: 100px 10px 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  border-radius: 24.944px;
+  background: linear-gradient(#66C4F9, #007EC6);  padding: 30px 40px;
+  max-width: 400px;
+  line-height: 14px;
+}
+.Holder404 a{
+  color: #4960A7;
+}
+.Holder404 p{
+  color: white;
+  text-align: center;
+  line-height: 25px;
+}
+.Holder404 button>p{
+  color: white;
+  font-family: 'poppins';
+  margin: 0%;
+}
+
+.Holder404 button{
+  height: fit-content;
+  padding: 5px 25px;
+  align-self: center;
+  margin-top: 10px;
+  border: 1px solid #676BC2;
+  background-color: white;
+  border-radius: 10px;
+}
+.Holder404 button:hover{
+  border: 1px solid white;
+  background-color: transparent;
+}
+.Holder404 button>p>a:hover{
+  color: white;
+}
+@media (max-width: 768px) {
+  p{
+    font-size: 17px;
+  }
+}
+@media (max-width: 425px) {
+  p{
+    font-size: 15px;
+  }
+}

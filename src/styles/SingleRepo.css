@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.repoview-card h5 {
+  color: #007EC6;
+  margin: 0;
+  font-size: 17px;
+}
+.repoview-card h3 {
+  color: #007EC6;
+  margin: 0 ;
+  font-size: 20px;
+}
+.repoview-card {
+  margin: 50px 10px 20px;
+  max-width: 80%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 3fr));
+  gap: 10px;
+  padding: 50px 5px 50px 5px;
+  border-radius: 5px;
+  background: white;
+  border: 1px solid #007EC6;
+  text-align: center;
+  align-self: center;
+}
+.Link a {
+  margin-left: 10px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #007EC6;
+}
+.Link a:hover {
+  font-size: 18px;
+}
+.repoview-card p {
+  color: #007EC6;
+  margin: 0%;
+  font-size: 20px;
+  padding: 20px 0;
+}
+.button {
+  width: fit-content;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.20);
+  padding:10px 40px ;
+  background: #007EC6;
+  align-self: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+button > a {
+  color: white;
+  font-family: 'poppins';
+}
+@media (max-width: 768px) {
+  h3 {
+    font-size: 19px;
+  }
+  h5 {
+    font-size: 17px;
+  }
+  .repoview-card p{
+    font-size: 15px;
+  }
+}
+@media (max-width: 425px) {
+  h3 {
+    font-size: 20px;
+    text-align: start;
+    margin-bottom: 17px;
+    text-align: center;
+  }
+  h5 {
+    font-size: 15px;
+    text-align: start;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  p{
+    font-size: 15px;
+  text-align: start;
+  margin-left: 10px;
+  text-align: center;
+  }
+  .repoview-card {
+    display: block;
+    padding-top: 20px;
+    text-align: center;
+  }
+}
